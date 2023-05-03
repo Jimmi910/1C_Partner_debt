@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="aebb7ab6-a247-413f-9838-0b4684ea22e2">
+  <name>Partner_debt</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общий долг на партнера</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <managedApplicationModule>Extended</managedApplicationModule>
+    <sessionModule>Extended</sessionModule>
+    <externalConnectionModule>Extended</externalConnectionModule>
+    <commandInterface>Extended</commandInterface>
+    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="f61f3483-a242-40c2-8a34-c2dcec0f7aec"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="5148c688-c6da-41b9-8f5a-e7096e4236eb"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="f3006487-4f7d-4469-865b-48566563d4f9"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="56465e81-ccce-46f2-87b2-96d9c8caa883"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="06fd3768-1ab3-4aa1-aed6-8f91aa6370b5"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="f49493e2-80f1-4555-9618-e0ee3902e1e0"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="426f8ab9-b1d8-4cab-b0ec-71c7b4018b8a"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>PartnerDebt_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>t.me/Jimmi910</vendor>
+  <version>1.0.1.1</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
+  <languages uuid="003a6144-6243-40d5-ad36-6c826327aa42">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <commonPictures>CommonPicture.ЗаполнитьПоШаблону</commonPictures>
+  <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
+  <commonPictures>CommonPicture.ОтгрузкаЗапрещена</commonPictures>
+  <commonPictures>CommonPicture.ОтгрузкаРазрешена</commonPictures>
+  <commonPictures>CommonPicture.Отчеты</commonPictures>
+  <roles>Role.PartnerDebt_ДобавлениеИзменениеЛимитаДолгаПартнера</roles>
+  <roles>Role.БазовыеПраваУТ</roles>
+  <commonModules>CommonModule.PartnerDebt_КонтрольДолгаПартнера</commonModules>
+  <commonModules>CommonModule.PartnerDebt_ОбработчикиСобытий</commonModules>
+  <commonModules>CommonModule.PartnerDebt_ПрограммнаяРаботаСФормойСервер</commonModules>
+  <commonModules>CommonModule.МодификацияКонфигурацииПереопределяемый</commonModules>
+  <eventSubscriptions>EventSubscription.PartnerDebt_ОбработкаПроведения</eventSubscriptions>
+  <commonCommands>CommonCommand.PartnerDebt_КонтрольЛимитаДолгаПартнера</commonCommands>
+  <constants>Constant.PartnerDebt_КонтрольЛимитаДолгаПартнера</constants>
+  <commonForms>CommonForm.PartnerDebt_КонтрольЛимитаДолгаПартнера</commonForms>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Партнеры</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+</mdclass:Configuration>

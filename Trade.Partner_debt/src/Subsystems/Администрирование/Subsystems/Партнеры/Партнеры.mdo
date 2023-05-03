@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1229f3d8-7fce-4e25-99c2-7b9efa08744a" extendedConfigurationObject="9d56463a-1fd8-49f4-97d2-4ced59c031f7">
+  <name>Партнеры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <commandInterface>Extended</commandInterface>
+  </extension>
+  <content>Constant.PartnerDebt_КонтрольЛимитаДолгаПартнера</content>
+  <content>CommonCommand.PartnerDebt_КонтрольЛимитаДолгаПартнера</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

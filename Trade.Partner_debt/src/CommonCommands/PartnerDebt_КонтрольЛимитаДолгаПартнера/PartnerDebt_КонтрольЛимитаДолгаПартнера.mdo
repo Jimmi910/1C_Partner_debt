@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee4f3f55-5ccf-4980-b907-7c4b96301164">
+  <name>PartnerDebt_КонтрольЛимитаДолгаПартнера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль лимита долга партнера</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e078721-3fc5-415a-a179-b80ba81e45e9">
+  <producedTypes>
+    <managerType typeId="4ad019b5-66d5-44f2-8d2b-6cbee1cd970b" valueTypeId="7c1e91ba-6796-4eb7-acc8-de30aa2e246c"/>
+    <valueManagerType typeId="de53f2c3-c627-49ed-9e48-836c695a8505" valueTypeId="c580cf93-9560-4bd5-aa77-7e68a8d168b1"/>
+    <valueKeyType typeId="d18b1547-e7e8-4a60-823c-d12fae1de04f" valueTypeId="9ffdf539-d428-4076-a80a-958a763ade95"/>
+  </producedTypes>
+  <name>PartnerDebt_КонтрольЛимитаДолгаПартнера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль лимита долга партнера</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
