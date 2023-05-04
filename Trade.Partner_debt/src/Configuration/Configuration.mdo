@@ -34,7 +34,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>t.me/Jimmi910</vendor>
-  <version>1.0.3.2</version>
+  <version>1.0.3.3</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.17</compatibilityMode>
