@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fee3a61a-1f1e-4f8d-b28f-f2460959d44c">
+  <producedTypes>
+    <refType typeId="f5076d6b-14b1-44dc-b20c-18393324494c" valueTypeId="78de788a-337e-4bde-ad53-5593d29995d7"/>
+    <listType typeId="d6e0b394-9cc0-4593-a561-b1ade5bbd940" valueTypeId="bd1b6e40-d116-4dd7-b4b6-a6f6587053d8"/>
+    <managerType typeId="8f3c8c58-d530-4e75-b890-6712bc35e172" valueTypeId="ba2c6434-073b-4705-b7d6-a3e79482c6b2"/>
+  </producedTypes>
+  <name>PartnerDebt_ТипУстановкиЛимитаДолга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип установки лимита долга</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3a27a0c0-4b57-4828-9bcc-b6fa5de38a56">
+    <name>МаксимальныйИзДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальный из договора</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ca989aa5-0e30-4488-8420-8ccf6c841a80">
+    <name>Ручной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручной</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

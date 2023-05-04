@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6db808ef-71d2-48f7-9779-8a3f6cdbfc50">
+  <producedTypes>
+    <selectionType typeId="95e33771-929b-4144-b358-1c1b6d20b218" valueTypeId="7d0ee466-eebb-4d9a-9b27-f02fb078179e"/>
+    <listType typeId="91741bb0-2e3e-422d-ba38-0b0ab24efd48" valueTypeId="1f2a2a2f-90b8-4986-89dd-60143679249a"/>
+    <managerType typeId="e64c3415-008c-4f2e-977a-cae6ba133985" valueTypeId="06a0c795-7d61-4599-b8c7-48b5c5ab813b"/>
+    <recordSetType typeId="f6e47bcc-23fd-45a0-afdf-693e0d12c441" valueTypeId="a9ae7e43-794e-4810-b660-737547f338d5"/>
+    <recordKeyType typeId="987cbb1d-ba86-4590-b2be-33ebfa42d3e7" valueTypeId="3ef6e53d-da7c-4596-8aea-d6fbf5605252"/>
+    <recordType typeId="8fef8a54-8178-4c11-95e9-111c2584333c" valueTypeId="347ba2af-5a74-408f-b01f-afa6238571a7"/>
+    <recordManagerType typeId="6623720b-aad1-4e2f-89c1-d56fb72a68f5" valueTypeId="a1e83e7b-5ebc-4862-a9a0-a5eba3f0cba3"/>
+  </producedTypes>
+  <name>PartnerDebt_РучныеЛимитыДолгаПартнера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ручные лимиты долга партнера</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.PartnerDebt_РучныеЛимитыДолгаПартнера.Form.ФормаЗаписи</defaultRecordForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Лимит долга</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Ручные лимиты долгов</value>
+  </listPresentation>
+  <resources uuid="e3886be4-0c60-4f1e-9c5f-64d23c8f70b6">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="724d713d-9f6b-444c-a4d3-5498c6831645">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="fe49548b-cbbd-4b4f-9477-7dfc69fe477d">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0e52cee2-0e47-452a-90b4-2d8a9a8ee860">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

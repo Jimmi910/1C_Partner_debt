@@ -34,7 +34,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>t.me/Jimmi910</vendor>
-  <version>1.0.2.1</version>
+  <version>1.0.3.2</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.17</compatibilityMode>
@@ -66,4 +66,6 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Партнеры</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <enums>Enum.PartnerDebt_ТипУстановкиЛимитаДолга</enums>
+  <informationRegisters>InformationRegister.PartnerDebt_РучныеЛимитыДолгаПартнера</informationRegisters>
 </mdclass:Configuration>

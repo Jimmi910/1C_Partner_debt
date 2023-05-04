@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="470a11e0-c85e-4a8c-9a24-b8fe59f55327" extendedConfigurationObject="bf75bcc5-82ee-4bd0-89e1-420b42c99454">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="470a11e0-c85e-4a8c-9a24-b8fe59f55327" extendedConfigurationObject="bf75bcc5-82ee-4bd0-89e1-420b42c99454">
   <producedTypes>
     <objectType typeId="e6f0e022-f6e8-4dc2-9714-05d477152c3d" valueTypeId="32af7f8e-96b6-4441-9fcb-f78e67d35440"/>
     <refType typeId="721cbfa4-e147-45fa-a056-995ebab38c25" valueTypeId="f4e4c6ed-88d8-4f03-a9bc-19a1ba9c11b9"/>
@@ -12,6 +12,21 @@
   <extension xsi:type="mdclassExtension:CatalogExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
+  <attributes uuid="a4965c93-63c8-4822-9087-86156b3b459c">
+    <name>PartnerDebt_ТипУстановкиЛимитаДолга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип установки лимита долга</value>
+    </synonym>
+    <type>
+      <types>EnumRef.PartnerDebt_ТипУстановкиЛимитаДолга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="98be6e23-c2e2-432b-a65b-575edfb15dcc" extendedConfigurationObject="741e4c8a-4f04-4371-8559-507b5ad514c2">
     <name>ФормаЭлемента</name>
     <objectBelonging>Adopted</objectBelonging>
