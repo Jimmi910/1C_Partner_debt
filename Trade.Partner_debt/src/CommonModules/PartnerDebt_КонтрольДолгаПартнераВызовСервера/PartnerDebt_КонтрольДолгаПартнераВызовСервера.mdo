@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfe5dbdb-0b91-4846-900b-2ed48ee33ca5">
-  <name>PartnerDebt_КонтрольДолгаПартнера</name>
+  <name>PartnerDebt_КонтрольДолгаПартнераВызовСервера</name>
   <synonym>
     <key>ru</key>
     <value>Контроль долга партнера</value>
   </synonym>
   <server>true</server>
-  <externalConnection>true</externalConnection>
-  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
 </mdclass:CommonModule>
