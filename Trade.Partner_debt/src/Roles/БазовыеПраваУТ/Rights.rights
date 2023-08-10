@@ -1,12 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Rights xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://v8.1c.ru/8.2/roles" xsi:type="Rights">
 	<setForNewObjects>false</setForNewObjects>
-	<setForAttributesByDefault>true</setForAttributesByDefault>
+	<setForAttributesByDefault>false</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
+	<object>
+		<name>Constant.PartnerDebt_КонтрольЛимитаДолгаПартнера</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
 	<object>
 		<name>InformationRegister.PartnerDebt_РучныеЛимитыДолгаПартнера</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.PartnerDebt_ЗадолженностьКлиентовПоСрокам</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.PartnerDebt_ВедомостьРасчетовСКлиентами</name>
+		<right>
+			<name>Use</name>
 			<value>true</value>
 		</right>
 		<right>

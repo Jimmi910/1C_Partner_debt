@@ -6,11 +6,11 @@
 	<object>
 		<name>Constant.PartnerDebt_КонтрольЛимитаДолгаПартнера</name>
 		<right>
-			<name>UpdateDataHistorySettings</name>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>ReadDataHistory</name>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -22,15 +22,19 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>Read</name>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
 			<value>true</value>
 		</right>
 		<right>
 			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -42,41 +46,30 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonCommand.PartnerDebt_КонтрольЛимитаДолгаПартнера</name>
-		<right>
-			<name>View</name>
+			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
 		<name>InformationRegister.PartnerDebt_РучныеЛимитыДолгаПартнера</name>
 		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>UpdateDataHistoryVersionComment</name>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -88,7 +81,11 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>TotalsControl</name>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -96,7 +93,7 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>UpdateDataHistoryVersionComment</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -104,15 +101,18 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
+			<name>EditDataHistoryVersionComment</name>
 			<value>true</value>
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.PartnerDebt_КонтрольЛимитаДолгаПартнера</name>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

@@ -18,6 +18,7 @@
       <key>ru</key>
       <value>Тип установки лимита долга</value>
     </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
     <type>
       <types>EnumRef.PartnerDebt_ТипУстановкиЛимитаДолга</types>
     </type>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4a88f08f-4186-4a8b-b1d6-d4cdef9d0b7f" extendedConfigurationObject="0c588f17-899d-4631-99f3-44aaf039357e">
+  <producedTypes>
+    <objectType typeId="39070995-1f48-4f8f-b463-02c96a234681" valueTypeId="7c1c0360-704f-4b93-a580-e09e7d91c829"/>
+    <refType typeId="f121a5f2-10bb-4d52-9423-09b3868b2bb4" valueTypeId="72cd257f-a867-4459-b048-d725e6a515e4"/>
+    <selectionType typeId="18b7ef05-dc3a-4b81-8b81-d93852b8fc15" valueTypeId="a26319b2-acea-458d-a1c1-3abf54b50f64"/>
+    <listType typeId="6f6f0bbf-4805-4138-9662-b9e2c6c1be14" valueTypeId="8069b77c-c9d6-4476-a423-c0feeb526cad"/>
+    <managerType typeId="6a1985d6-fff1-449b-b29e-55901e4c5eaa" valueTypeId="07cde354-6f8e-4341-92e2-556030439205"/>
+  </producedTypes>
+  <name>ОбъектыРасчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

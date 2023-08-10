@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ce620986-ecea-4ba6-80e8-77b6fdf18ff2" extendedConfigurationObject="b00d6535-2666-4280-8753-3edee174b5ca">
+  <name>РаботаСКлиентами</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <content>Report.PartnerDebt_ВедомостьРасчетовСКлиентами</content>
+  <content>Report.PartnerDebt_ЗадолженностьКлиентовПоСрокам</content>
+  <parentSubsystem>Subsystem.Продажи</parentSubsystem>
+</mdclass:Subsystem>
