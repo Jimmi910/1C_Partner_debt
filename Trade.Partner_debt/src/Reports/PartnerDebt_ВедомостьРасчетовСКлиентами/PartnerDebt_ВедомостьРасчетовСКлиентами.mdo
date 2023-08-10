@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3f606e0-6047-469a-9beb-f4ce04025c1c">
+  <producedTypes>
+    <objectType typeId="444ec111-cfc6-41e0-8d8f-b57e1ada0b98" valueTypeId="32b45ce9-f5f3-4768-b743-e11cedc22a0a"/>
+    <managerType typeId="6ba14f95-339e-4f47-9abf-b7980e1e4cac" valueTypeId="8037614b-c242-4921-b36c-a2c3db692b3c"/>
+  </producedTypes>
+  <name>PartnerDebt_ВедомостьРасчетовСКлиентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Partner debt ведомость расчетов с клиентами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.PartnerDebt_ВедомостьРасчетовСКлиентами.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="373dcc43-1be6-429e-a3c4-646ad27c1369">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

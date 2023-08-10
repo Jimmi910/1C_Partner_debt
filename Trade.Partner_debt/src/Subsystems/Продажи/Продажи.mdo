@@ -4,7 +4,7 @@
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:SubsystemExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
-    <commandInterface>Extended</commandInterface>
   </extension>
   <content>CommonCommand.PartnerDebt_КонтрольЛимитаДолгаПартнера</content>
+  <subsystems>РаботаСКлиентами</subsystems>
 </mdclass:Subsystem>
