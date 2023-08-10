@@ -52,6 +52,7 @@
   <commonPictures>CommonPicture.Отчеты</commonPictures>
   <roles>Role.PartnerDebt_ДобавлениеИзменениеЛимитаДолгаПартнера</roles>
   <roles>Role.БазовыеПраваУТ</roles>
+  <roles>Role.ОтчетыМенеджераПоПродажам</roles>
   <commonModules>CommonModule.PartnerDebt_ДоработкаФормПартнера</commonModules>
   <commonModules>CommonModule.PartnerDebt_КонтрольДолгаПартнераВызовСервера</commonModules>
   <commonModules>CommonModule.PartnerDebt_ОбработчикиСобытий</commonModules>
