@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1f477470-d2d6-4b90-9474-4f98b1563e77" extendedConfigurationObject="61d5a328-c956-4523-9c4c-6bee1edeeae8">
+  <producedTypes>
+    <managerType typeId="619fe3fa-4ca3-4ba6-9092-032fafd4f692" valueTypeId="014f8173-e11d-474f-a2f7-cbf641c7fc26"/>
+    <valueManagerType typeId="f573250a-d112-49b2-82fe-835be003907b" valueTypeId="39e980bd-877a-496d-9db3-298aa8bc95d8"/>
+    <valueKeyType typeId="2beffd00-bbff-43ff-8384-d88c5e82ece1" valueTypeId="3e569f39-4903-459e-8b8b-ef6b82e21c31"/>
+  </producedTypes>
+  <name>НоваяАрхитектураВзаиморасчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

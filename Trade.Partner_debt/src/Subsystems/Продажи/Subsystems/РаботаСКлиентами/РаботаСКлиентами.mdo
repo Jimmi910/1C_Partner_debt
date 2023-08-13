@@ -7,5 +7,6 @@
   </extension>
   <content>Report.PartnerDebt_ВедомостьРасчетовСКлиентами</content>
   <content>Report.PartnerDebt_ЗадолженностьКлиентовПоСрокам</content>
+  <content>Report.PartnerDebt_РасчетыСКлиентами</content>
   <parentSubsystem>Subsystem.Продажи</parentSubsystem>
 </mdclass:Subsystem>
