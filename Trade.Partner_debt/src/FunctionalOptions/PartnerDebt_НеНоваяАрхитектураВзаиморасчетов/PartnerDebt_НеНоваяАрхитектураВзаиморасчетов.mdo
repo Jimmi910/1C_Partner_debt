@@ -7,4 +7,6 @@
   </synonym>
   <location>Constant.НеНоваяАрхитектураВзаиморасчетов</location>
   <privilegedGetMode>true</privilegedGetMode>
+  <content>Report.PartnerDebt_РасчетыСКлиентами</content>
+  <content>Report.PartnerDebt_ДебиторскаяЗадолженность</content>
 </mdclass:FunctionalOption>

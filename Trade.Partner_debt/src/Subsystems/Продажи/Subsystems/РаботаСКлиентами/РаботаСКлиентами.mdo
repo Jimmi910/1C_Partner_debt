@@ -8,5 +8,6 @@
   <content>Report.PartnerDebt_ВедомостьРасчетовСКлиентами</content>
   <content>Report.PartnerDebt_ЗадолженностьКлиентовПоСрокам</content>
   <content>Report.PartnerDebt_РасчетыСКлиентами</content>
+  <content>ea55d8a5-60c4-4e27-91c9-aa66b227a374</content>
   <parentSubsystem>Subsystem.Продажи</parentSubsystem>
 </mdclass:Subsystem>

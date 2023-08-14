@@ -32,7 +32,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>t.me/Jimmi910</vendor>
-  <version>1.3.4.6</version>
+  <version>1.3.5.1</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.17</compatibilityMode>
@@ -85,6 +85,7 @@
   <documents>Document.РеализацияТоваровУслуг</documents>
   <enums>Enum.PartnerDebt_ТипУстановкиЛимитаДолга</enums>
   <reports>Report.PartnerDebt_ВедомостьРасчетовСКлиентами</reports>
+  <reports>Report.PartnerDebt_ДебиторскаяЗадолженность</reports>
   <reports>Report.PartnerDebt_ЗадолженностьКлиентовПоСрокам</reports>
   <reports>Report.PartnerDebt_РасчетыСКлиентами</reports>
   <informationRegisters>InformationRegister.PartnerDebt_РучныеЛимитыДолгаПартнера</informationRegisters>
