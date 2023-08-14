@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5456dbf4-5d9e-4a75-a21a-4e3fa7f141c8" extendedConfigurationObject="94dc0182-a199-4a52-af04-ed95dec30b84">
+  <producedTypes>
+    <selectionType typeId="1ee34488-561d-441d-a543-c31c54abd2f3" valueTypeId="504f3e8f-d047-4f2f-9469-df7065608ddf"/>
+    <listType typeId="c2db50d1-d824-4067-b61d-654eae1bfcdb" valueTypeId="fc945373-937e-420e-ad0f-c58bc04183f7"/>
+    <managerType typeId="0d1049d0-2e77-4f8a-b3c2-f3bb8d80897e" valueTypeId="54ccafea-192d-4b60-895a-38596f00ae47"/>
+    <recordSetType typeId="f7e79ce6-701b-457f-9fea-59b63a41aa9d" valueTypeId="aaf91578-6e4f-4e6a-9935-5be0d366b0dc"/>
+    <recordKeyType typeId="631af645-6910-43f2-9dac-bc5ed576c123" valueTypeId="5fe72203-db7c-485d-aef8-8a24bf8478ee"/>
+    <recordType typeId="379a4523-0319-4191-9e23-99593d1929a5" valueTypeId="99f963ff-e5e9-408a-90b6-6e0ac2e0e6d1"/>
+    <recordManagerType typeId="aeccb128-1e77-4978-9b66-83677c4cf32f" valueTypeId="65b1f7f9-201e-46a8-8afb-77aaf826e270"/>
+  </producedTypes>
+  <name>ПартнерыСегмента</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <dimensions uuid="b99545d0-8e8a-476d-a9d6-939a1d58bdbd" extendedConfigurationObject="3e43a713-9c5c-4f6a-b17c-926c1ef0af85">
+    <name>Сегмент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СегментыПартнеров</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="7380d734-0167-4d98-9e48-db8db2b208ba" extendedConfigurationObject="994998ea-b12e-4666-a2c7-8bd46b298b2f">
+    <name>Партнер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Партнеры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

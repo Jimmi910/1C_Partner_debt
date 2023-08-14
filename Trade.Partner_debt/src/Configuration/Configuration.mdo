@@ -32,7 +32,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>t.me/Jimmi910</vendor>
-  <version>1.2.4.6</version>
+  <version>1.3.4.6</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.17</compatibilityMode>
@@ -61,12 +61,20 @@
   <commonModules>CommonModule.ВзаиморасчетыСервер</commonModules>
   <commonModules>CommonModule.МодификацияКонфигурацииПереопределяемый</commonModules>
   <eventSubscriptions>EventSubscription.PartnerDebt_ОбработкаПроведения</eventSubscriptions>
+  <functionalOptions>FunctionalOption.PartnerDebt_НеНоваяАрхитектураВзаиморасчетов</functionalOptions>
+  <functionalOptions>FunctionalOption.PartnerDebt_НоваяАрхитектураВзаиморасчетов</functionalOptions>
+  <functionalOptions>FunctionalOption.НеНоваяАрхитектураВзаиморасчетов</functionalOptions>
+  <functionalOptions>FunctionalOption.НоваяАрхитектураВзаиморасчетов</functionalOptions>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
   <commonCommands>CommonCommand.PartnerDebt_КонтрольЛимитаДолгаПартнера</commonCommands>
   <constants>Constant.PartnerDebt_КонтрольЛимитаДолгаПартнера</constants>
+  <constants>Constant.НеНоваяАрхитектураВзаиморасчетов</constants>
+  <constants>Constant.НоваяАрхитектураВзаиморасчетов</constants>
   <commonForms>CommonForm.PartnerDebt_КонтрольЛимитаДолгаПартнера</commonForms>
   <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ГруппыФинансовогоУчетаРасчетов</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.КлючиАналитикиУчетаПоПартнерам</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.НаправленияДеятельности</catalogs>
   <catalogs>Catalog.ОбъектыРасчетов</catalogs>
@@ -78,5 +86,10 @@
   <enums>Enum.PartnerDebt_ТипУстановкиЛимитаДолга</enums>
   <reports>Report.PartnerDebt_ВедомостьРасчетовСКлиентами</reports>
   <reports>Report.PartnerDebt_ЗадолженностьКлиентовПоСрокам</reports>
+  <reports>Report.PartnerDebt_РасчетыСКлиентами</reports>
   <informationRegisters>InformationRegister.PartnerDebt_РучныеЛимитыДолгаПартнера</informationRegisters>
+  <informationRegisters>InformationRegister.АналитикаУчетаПоПартнерам</informationRegisters>
+  <informationRegisters>InformationRegister.ПартнерыСегмента</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.РасчетыСКлиентами</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.РасчетыСКлиентамиПоДокументам</accumulationRegisters>
 </mdclass:Configuration>

@@ -11,7 +11,27 @@
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:CatalogExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <predefined>Checked</predefined>
   </extension>
+  <codeLength>11</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="fd69b110-b08b-4608-a48b-972d92a536c6">
+      <name>НашеПредприятие</name>
+      <description>Наше предприятие</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code xsi:type="core:StringValue">
+        <value>УТ-00000001</value>
+      </code>
+    </items>
+  </predefined>
   <attributes uuid="a4965c93-63c8-4822-9087-86156b3b459c">
     <name>PartnerDebt_ТипУстановкиЛимитаДолга</name>
     <synonym>

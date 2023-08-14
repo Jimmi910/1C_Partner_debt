@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d42310b2-80bc-4b1e-98e3-fe4e1ee2d135">
+  <name>PartnerDebt_НеНоваяАрхитектураВзаиморасчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не новая архитектура взаиморасчетов</value>
+  </synonym>
+  <location>Constant.НеНоваяАрхитектураВзаиморасчетов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

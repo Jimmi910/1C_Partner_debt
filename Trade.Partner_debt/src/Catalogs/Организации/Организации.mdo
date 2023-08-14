@@ -12,4 +12,18 @@
   <extension xsi:type="mdclassExtension:CatalogExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
+  <attributes uuid="45e2e269-8447-407f-b320-1f86d459e4be" extendedConfigurationObject="6adb0fc4-e2ae-4602-b3ef-5ad2257bc8ef">
+    <name>ВалютаРегламентированногоУчета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Валюты</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
 </mdclass:Catalog>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b99d5d80-eba2-4775-b190-e1884db4c97a">
+  <name>PartnerDebt_НоваяАрхитектураВзаиморасчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Новая архитектура взаиморасчетов</value>
+  </synonym>
+  <location>Constant.НоваяАрхитектураВзаиморасчетов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Report.PartnerDebt_ВедомостьРасчетовСКлиентами</content>
+  <content>Report.PartnerDebt_ЗадолженностьКлиентовПоСрокам</content>
+</mdclass:FunctionalOption>

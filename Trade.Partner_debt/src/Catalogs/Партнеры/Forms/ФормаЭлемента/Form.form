@@ -2040,6 +2040,7 @@
               <autoMaxHeight>true</autoMaxHeight>
               <wrap>true</wrap>
               <openButton>false</openButton>
+              <quickChoice>true</quickChoice>
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
